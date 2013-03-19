@@ -1,0 +1,54 @@
+a:link{color:#7cc4e7;; text-decoration:none;}
+a:active{color:#7cc4e7; text-decoration:none;}
+a:visited{color:#2489ce; text-decoration:none;}
+a:hover{color:#2489ce; text-decoration:underline;}
+
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  min-width: 300px;
+}
+body {font-family: Verdana, Arial, Helvetica, sans-serif; height: 100%; margin: 0px;}
+p {margin: 10px 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color:#5a5a5a;}
+ul {margin: 10px 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color:#5a5a5a;} 
+
+.mainText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px;}
+.secondaryText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+.smallText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px;}
+.headerText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 35px;}
+.smallHeader {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color:#999999;}
+.headerColor {
+	border: 1px solid #003366 /*{a-bar-border}*/;
+	background: #003366 /*{a-bar-background-color}*/;
+	color: #ffffff /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #444444 /*{a-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #287399 /*{a-bar-background-start}*/), to( #003366 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #287399 /*{a-bar-background-start}*/, #003366 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #287399 /*{a-bar-background-start}*/, #003366 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #287399 /*{a-bar-background-start}*/, #003366 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #287399 /*{a-bar-background-start}*/, #003366 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #287399 /*{a-bar-background-start}*/, #003366 /*{a-bar-background-end}*/);
+}
+
+#info {margin-top:50px;}
+#getTheApp {margin-top:20px;}
+#supported {margin-top:100px;}
+#break {margin-top:100px;}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 20px 0;
+	color: #EEEEEE;
+}

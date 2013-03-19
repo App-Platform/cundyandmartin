@@ -1,0 +1,40 @@
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px Arial, Helvetica, sans-serif; color: #5a5a5a;}
+
+/* Links */
+a:link, a:visited {background: transparent; color:#b0784f; text-decoration:none;}
+
+/*Image*/
+img, img a, .more-link a {border:none;}
+
+/*Remove Element*/
+#logo, #catnavi, .topnavi, .more-link, .navigation, #sidebartop, #related, #social, #sponsors, .tabs, #allpost, .toolbar, .splitbox, #commentform, #commentabs .idTabs, .postmeta-content .comments, #respond h3, .tag, .footerlinks, .headerColor {display:none;}
+
+
+p {margin: 10px 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color:#5a5a5a;}
+ul {margin: 10px 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color:#5a5a5a;} 
+
+.mainText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px;}
+.secondaryText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+.smallText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px;}
+.headerText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 35px;}
+.smallHeader {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color:#999999;}
+#info {margin-top:10px;}
+#getTheApp {margin-top:20px;}
+#supported {margin-top:50px;}
+#break {margin-top:50px;}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 20px 0;
+	color: #EEEEEE;
+}
+
