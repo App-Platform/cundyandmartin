@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.jimhunkinsent.jimhunkins.app"
-        version   = "1.3.0">
+		id        = "com.appplatform.cundyandmartin"
+		version   = "1.1.0">
 		
     <name>Cundy &amp; Martin LLC</name>
 
