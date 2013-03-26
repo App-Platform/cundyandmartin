@@ -10,20 +10,25 @@
 <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
 <meta name="viewport" content="width=device-width" />
 
+<!-- CSS -->
 <link type="text/css" rel="stylesheet" href="css/jquery.mobile.structure-1.3.0.min.css" />
 <link type="text/css" rel="stylesheet" href="css/custom-theme.css" />
 <link type="text/css" rel="stylesheet" href="css/jquery-mobile-fluid960.min.css" />
+<link type="text/css" rel="stylesheet" href="css/colorbox.css" />
+<link type="text/css" rel="stylesheet" href="css/pwi.css" />
 <link type="text/css" rel="stylesheet" href="css/app-platform.css" />
 
-<!-- ADD SCRIPTS -->
-
+<!-- ADD SCRIPTS-->
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="js/jquery.mobile-1.3.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/jquery.pwi.js"></script>
 <script type="text/javascript" src="js/app-platform.js"></script>
 
+<!-- Add PhoneGap -->
 <script type="text/javascript" src="phonegap.js"></script>
 <script type="text/javascript" src="childbrowser.js"></script>
-
 
 </head>
 
@@ -44,9 +49,9 @@
         </div>
         <div data-role="content" class="help">
           <h2>How does this work?</h2>
-          <p><strong>Send a referral</strong><br>
+          <p><!--strong>Send a referral</strong><br>
             Tap the Email Referral button and an email will be generated with information about Cundy & Martin. Just enter the email address of the person you would like to refer in the To: field and hit send! They will receive the information, and Vincent Martin will have both your email address and your referrals email address for tracking purposes.<br />
-            <br />
+            <br /-->
 			<strong>Send this app</strong><br>
 			This one is self explanatory, simply tap this to generate an email to invite people to install this application on their device.<br>
 			<br>
@@ -57,18 +62,25 @@
     </div>
         <div data-role="footer" class="center"> <a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="delete" style="margin-top:10px; margin-bottom:10px;">Close Window</a> </div>
     </div><!-- /help -->
+    
+    
+    <h1 class="center"><a id="body" href="tel:952-746-4111">(952) 746-4111</a></h1>
+    
+    <p class="center">
+    <a id="body" target="_blank" onClick="window.plugins.childBrowser.openExternal('http://www.cundyandmartin.com/family/family-law.php');">Family law</a> |
+    <a id="body" target="_blank" onClick="window.plugins.childBrowser.openExternal('http://www.cundyandmartin.com/immigration/immigration.php');">Immigration</a> |
+    <a id="body" target="_blank" onClick="window.plugins.childBrowser.openExternal('http://www.cundyandmartin.com/bankruptcy/index.php');">Bankruptcy</a> |
+    <a id="body" target="_blank" onClick="window.plugins.childBrowser.openExternal('http://www.cundyandmartin.com/criminal/criminal-defense.php');">Criminal defense</a> |
+    </p>
 
 <div class="container_12">
     <div class="grid_5 ui-block960-a">
     
-        <h1 class="center"><a id="body" href="tel:952-746-4111">(952) 746-4111</a></h1>
-		
-		<p class="center">Family law | Immigration | Bankruptcy | Criminal defense</p>
-		
 		<p><strong>Contact</strong></p>
         <a href="tel:9527464111" data-role="button" data-icon="phone">(952) 746-4111</a>
-		<a href="mailto:vmartin@cundyandmartin.com" target="_blank" data-icon="email" data-role="button">vmartin@cundyandmartin.com</a>
+		<a href="mailto:vmartin@cundyandmartin.com" target="_blank" data-icon="email" data-role="button">Ask a Lawyer</a>
         <a data-role="button" data-icon="info" target="_blank" onClick="window.plugins.childBrowser.openExternal('http://www.cundyandmartin.com/');">www.cundyandmartin.com</a>
+        <a data-role="button" data-icon="facebook" target="_blank" onClick="window.plugins.childBrowser.openExternal('https://www.facebook.com/CundyandMartin');">Free Legal Information</a>
 
 		</div><!-- /block a -->
     <div class="grid_7 ui-block960-b">
@@ -77,9 +89,10 @@
         7900 Xerxes Ave. S., Ste 1125<br />
         Bloomington, MN 55431</p>
         <a data-role="button" data-icon="home" target="_blank" onClick="window.plugins.childBrowser.openExternal('https://maps.google.com/maps?q=7900+Xerxes+Ave.+S.,+Ste+1125,+Bloomington,+MN&hl=en&t=h&hnear=7900+Xerxes+Ave+S+%231125,+Bloomington,+Minnesota+55431&z=17');">Map</a>
+
         <p class="center bffr"> <a id="body" href="#help" data-rel="popup" data-position-to="window" data-transition="pop">How does this work?</a></p>
 		
-        <a href="mailto:?cc=vmartin%40cundyandmartin.com&subject=Do%20you%20need%20a%20Lawyer%3F&body=Contact%20us%20if%20you%20need%20help%20with%20Immigration%2C%20Divorce%20or%20Family%20Law%2C%20Criminal%20Defense%2C%20and%20Bankruptcy.%0D%0A%20%0D%0AThanks%2C%20%0D%0A%0D%0AVince" target="_blank" data-icon="email" data-role="button" data-transition="slide">Email Referral</a> 
+        <!-- a href="mailto:?cc=vmartin%40cundyandmartin.com&Subject=Do%20you%20need%20a%20Lawyer%3F&Body=Contact%20us%20if%20you%20need%20help%20with%20Immigration%2C%20Divorce%20or%20Family%20Law%2C%20Criminal%20Defense%2C%20Bankruptcy%0A%20%0AThanks%2C%20%0A%0AVince" target="_blank" data-icon="email" data-role="button" data-transition="slide">Email Referral</a--> 
 		<a href="mailto:?cc=vmartin%40cundyandmartin.com&subject=Get%20the%20Cundy%20%26%20Martin%20App&body=Get%20our%20mobile%20application.%20Go%20to%20http%3A%2F%2Fcundyandmartin.com%2Fapp%20and%20follow%20the%20instructions!" target="_blank" data-icon="email" data-role="button" data-transition="slide">Send this app</a> <br />
 
         
